@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: serif;
+}
+
+/* .hero */
+.nav {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 80px; */
+}
+/* .nav__logo */
+.nav__lista {
+  list-style: none;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* background-color: purple; */
+}
+/* .nav__elementos */
+.nav__enlace {
+  color: #ff7143;
+  text-decoration: none;
+}
+/* .nav__elementos */
+/* .nav__enlace */
+/* .nav__elementos */
+/* .nav__enlace */
+
+.principal {
+  width: 90%;
+  height: calc(100vh - 80px);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /*Esta técnica es buena para el responsive*/
+  /* flex-direction: column;*/
+}
+
+.principal > * {
+  outline: 1px solid red;
+}
+
+.principal__textos {
+  /* width: 400px; */
+}
+
+.principal__titulo {
+  font-size: 2.5rem;
+}
+
+.principal__boton {
+  display: inline-block;
+  padding: 1em 3em;
+  color: #fff;
+  background-color: #5454d4;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.principal__figura {
+  width: 300px;
+}
+
+/* Truco para que la imagen se ajuste al contenedor. Poner el ancho en 100% */
+.principal__img {
+  width: 100%;
+}
+
+.cards__individual {
+  text-align: center;
+}
+
+/* @media(min-width:700px){
+    .principal{
+        flex-direction: row;
+    }
+} */
